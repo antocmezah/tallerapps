@@ -1,0 +1,56 @@
+name: peguitapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flex_color_scheme: ^8.0.1
+  firebase_core: ^3.6.0
+  firebase_storage: ^12.3.4
+  firebase_database: ^11.1.4
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  image_picker: ^1.1.2
+  backdrop: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_localizations: # Agrega esto si no está incluido
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/rayo.png
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Black.ttf
+        - asset: lib/assets/fonts/Poppins-BlackItalic.ttf
+        - asset: lib/assets/fonts/Poppins-Bold.ttf
+        - asset: lib/assets/fonts/Poppins-BoldItalic.ttf
+        - asset: lib/assets/fonts/Poppins-ExtraBold.ttf
+        - asset: lib/assets/fonts/Poppins-ExtraBoldItalic.ttf
+        - asset: lib/assets/fonts/Poppins-ExtraLight.ttf
+        - asset: lib/assets/fonts/Poppins-ExtraLightItalic.ttf
+        - asset: lib/assets/fonts/Poppins-Italic.ttf
+        - asset: lib/assets/fonts/Poppins-Light.ttf
+        - asset: lib/assets/fonts/Poppins-LightItalic.ttf
+        - asset: lib/assets/fonts/Poppins-Medium.ttf
+        - asset: lib/assets/fonts/Poppins-MediumItalic.ttf
+        - asset: lib/assets/fonts/Poppins-Regular.ttf
+        - asset: lib/assets/fonts/Poppins-SemiBold.ttf
+        - asset: lib/assets/fonts/Poppins-SemiBoldItalic.ttf
+        - asset: lib/assets/fonts/Poppins-Thin.ttf
+        - asset: lib/assets/fonts/Poppins-ThinItalic.ttf
+
+        

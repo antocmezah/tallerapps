@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228337120451",
+    "project_id": "peguitapp-30e0c",
+    "storage_bucket": "peguitapp-30e0c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228337120451:android:d3083c6790315e1c9d5e76",
+        "android_client_info": {
+          "package_name": "com.example.peguitapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPcdVEpqmZB4VXrYbG6ZcJWD6pV81HxFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
